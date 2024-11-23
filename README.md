@@ -1,8 +1,11 @@
-# React + Vite
+# WTWR - What to wear?
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## What is it?
 
-Currently, two official plugins are available:
+This is a simple project designed to take the user's location and display the temperature, weather condition and clothing suggestions for going outside.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technology used?
+
+A mix of HTML, CSS, JS, including native and remote API calls. This API used in the project is OpenWeather API. This API returns a lot of information, but this project only used the current temperature and weather condition based on what the user's location is.
+
+## Links
