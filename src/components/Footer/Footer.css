@@ -3,9 +3,10 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  position: relative;
+  position: absolute;
   left: 0;
   bottom: 0;
+  z-index: 5;
 }
 
 .footer__content {
