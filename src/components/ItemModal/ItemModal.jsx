@@ -1,4 +1,5 @@
 import "./ItemModal.css";
+import close from "../../assets/closeBtn.svg";
 
 function ItemModal({
   activeModal,
@@ -20,8 +21,10 @@ function ItemModal({
         <button
           onClick={closeActiveModal}
           type="button"
-          className="modal__close modal__close_item"
-        ></button>
+          className="modal__close-btn"
+        >
+          <img src={close} alt="close-button" />
+        </button>
         <img className="modal__image" src={card.imageUrl} alt={card.name} />
         <div className="modal__footer">
           <div className="modal__details">
@@ -29,7 +32,7 @@ function ItemModal({
             <p className="modal__weather">Weather: {card.weather}</p>
           </div>
           <button
-            className="modal__delete-btn"
+            className="modal__delete"
             type="button"
             onClick={deleteCardClick}
           >
